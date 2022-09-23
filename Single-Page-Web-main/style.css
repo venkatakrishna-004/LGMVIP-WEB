@@ -1,0 +1,418 @@
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+	font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+	width: 100%;
+}
+.bg
+{
+	width: 100%;
+	background: rgb(10, 7, 44);
+	opacity: 0.8;
+
+}
+.bg-1
+{
+	background: linear-gradient(45deg, #ffaf00, #bb02ff);
+}
+.navbar .container-fluid .navbar-brand
+{
+    color: #fff;
+    font-size: 2rem;
+    font-weight:600;
+}
+.navbar-toggler
+{
+	color: #fff;
+	background-color: #fff;
+}
+
+.image
+{
+    height: 100vh;
+    
+}
+.carouselExampleDark
+{
+    background-color: transparent;
+}
+.name
+{
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 500;
+}
+.content
+{
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 500;
+}
+.page2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(45deg, #ffaf00, #bb02ff);
+	background-attachment: fixed;
+}
+.container{
+	position: relative;
+	width: 1150px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.container .cards
+{
+	position: relative;
+	width: 300px;
+	height: 420px;
+	background: #fff;
+	margin: 20px auto;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+	transition: 0.5s;
+
+}
+.container .cards .circle
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #000;clip-path: circle(180px at center 0);
+	text-align: center;
+	
+}
+.container .cards .circle h2
+{
+	color: #fff;
+	font-size: 2rem;
+	padding: 0.5rem;
+}
+.container .cards .content
+{
+	position: absolute;
+	bottom: 10px;
+	page-break-after: 20px;
+	text-align: center;
+}
+.container .cards .content p
+{
+	color:#666;
+
+}
+.container .cards .content a
+{
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+	background: #000;
+	color: #fff;
+	border-radius: 40px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.container:hover .cards
+{
+	filter: blur(20px);
+	transform: scale(0.9);
+	opacity: 0.5;
+}
+.container .cards:hover
+{
+	filter: blur(0px);
+	transform: scale(1.1);
+	opacity: 1;
+}
+.container .cards:nth-child(1) .circle,
+.container .cards:nth-child(1) .content a
+{
+	background: #ffaf00;
+}
+.container .cards:nth-child(4) .circle,
+.container .cards:nth-child(4) .content a
+{
+	background: #ffaf00;
+}
+.container .cards:nth-child(3) .circle,
+.container .cards:nth-child(3) .content a
+{
+	background: #ffaf00;
+}
+.container .cards:nth-child(2) .circle,
+.container .cards:nth-child(2) .content a
+{
+	background: #da2268;
+}
+.container .cards:nth-child(5) .circle,
+.container .cards:nth-child(5) .content a
+{
+	background: #da2268;
+}
+.container .cards:nth-child(6) .circle,
+.container .cards:nth-child(6) .content a
+{
+	background: #ffaf00;
+}
+.container .cards:nth-child(7) .circle,
+.container .cards:nth-child(7) .content a
+{
+	background: #da2268;
+}
+.pag3-src
+{
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(45deg, #ffaf00, #bb02ff);
+	
+
+}
+@media (max-width: 810px)
+{
+	.pag3-src
+	{
+		height: 200vh;
+	}
+}
+.pg3
+{
+	width: 60%;
+	height: 40vh;
+	margin-top: 20px;
+	border-radius: 30px;
+	justify-content: center;
+	
+}
+.pg3-content
+{
+	color: #fff;
+	text-indent: 2rem;
+	text-align: center;
+	
+}
+.p3
+{
+	position: relative;
+	margin-top:10px;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 300;
+	
+}
+
+.link
+{
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	float: right;
+	padding: 10px 20px;
+	background: #000;
+	color: #fff;
+	border-radius: 40px;
+	text-decoration: none;
+	
+}
+.link:hover{
+	background: rgb(10, 7, 44);
+	
+	
+}
+
+.pg3:hover
+{
+	transform: scale(0.9);
+}
+.contact
+{
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(bg.jpg);
+	background-size: cover;
+}
+.contact .contents
+{
+	max-width: 800px;
+	text-align: center;
+}
+.contact .contents h2
+{
+	font-size: 36px;
+	font-weight:500;
+	color: #fff;
+}
+.contact .contents p
+{
+	
+	font-weight:300;
+	color: #fff;
+}
+.containers
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.containers .contactinfo
+{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.containers .contactinfo .box 
+{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.containers .contactinfo .box .icon
+{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+.containers .contactinfo .box .text 
+{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+}
+.containers .contactinfo .box .text h3
+{
+	font-weight: 500;
+	color: #00bcd4;
+}
+.contactform
+{
+	width: 40%;
+	padding: 40px;
+	background: #fff;
+
+}
+.contactform h2
+{
+	font-size: 30px;
+	color: #333;
+	font-weight: 300;
+}
+.contactform .inputbox
+{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+.contactform .inputbox span
+{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]
+{
+	width: 100px;
+	background-color: #00bcd4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+@media (max-width: 991px) 
+{
+	.contact
+	{
+		padding: 50px;
+	}
+	.containers
+	{
+		flex-direction: column;
+
+	}
+	.containers .contactinfo
+	{
+		margin-bottom: 40px;
+	}
+	.containers .contactinfo,
+	.contactform
+	{
+		width: 100%;
+	}
+}
+.contactform
+{
+	border-radius: 10%;
+}
+footer
+{
+	margin-top:0;
+	background: linear-gradient(45deg, #ffaf00, #bb02ff);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
